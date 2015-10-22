@@ -1,5 +1,8 @@
+//Danbi Youn
+
 //danbiY.h
 //
+
 #ifndef _DANBIY_H_
 #define _DANBIY_H_
 struct Vector{
