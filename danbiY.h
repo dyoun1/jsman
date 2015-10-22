@@ -1,22 +1,25 @@
-// danbi Youn
-
-#ifndef _DANBIY_H_
-#define _DANBIY_H_
 //danbiY.h
 //
+#ifndef _DANBIY_H_
+#define _DANBIY_H_
+struct Vector{
+        float x, y, z;
+};
 
 
-struct Shape {
+struct Sh {
     float width, height;
     float radius;
-    Vec center;
+    Vector center;
 };
 
 struct Bullet {
-    Shape s;
-    Vec velocity;
+    Sh s;
+    Vector velocity;
 };
 
-extern void makebullet(int x, int y);
+extern void makebullet(int, int);
+
+
 
 #endif
