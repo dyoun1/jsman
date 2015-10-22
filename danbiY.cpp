@@ -4,9 +4,9 @@
 #include "danbiY.h"
 
 
-void makeBullet(int ab, int bc)
+void makeBullet(Bullet *b, int ab, int bc)
 {   
-    Bullet *b;
+    
     b->s.center.x = (float)ab;
     b->s.center.y = (float)bc;
     b->velocity.x = 4.0;
